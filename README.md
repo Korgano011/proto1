@@ -12,4 +12,4 @@ The name of the member
 The member’s phone number
 The member’s email address
 Reason for membership
-in the event a member needs to be removed, the user will be able to delete the member by swiping to the left and pressing delete. 
+in the event a member needs to be removed, the user will be able to delete the member by swiping to the left and pressing delete. For the user to save the members locally, I will install the realm database.  This is so that when the user closes the app, the member information is not lost.  in addition, the firebase database will also be installed for the purpose of storing member information on the internet, and to access it in the future.  Firebase is run through google, and is easy to use.  Both of these databases will be installed using the cocoa pods method.
